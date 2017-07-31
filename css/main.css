@@ -1,0 +1,58 @@
+<style type="text/css">
+
+#row  {
+    display: table-row;
+}
+
+#left, #right, #middle {  
+    display: table-cell;
+	padding-left: 40px;
+}    
+
+#getTradeOpDash
+{
+        padding: 2px;
+        background-color:LightGray;
+        width:600px;
+}
+   
+#getbuttonsDash {
+    width:117px;
+}
+
+#getUserInfoDash
+{
+    border-radius: 5px;
+	padding: 10px;
+	width:585px;
+    height:17px;
+    background-color:LightGray;
+    
+}
+
+#mainConsole
+{
+    border-radius: 5px;
+	width:605px;
+    height:425px;
+    background-color:LightGray;
+    overflow-y: auto;
+    max-width:605px;
+    max-height:325px;
+}
+
+div.innerConsole {
+    padding: 10px;
+	
+}
+
+input.trade_buttons {
+    width:97px;
+	
+}       
+
+
+.alignDivs {
+    display: inline; /* Or inline-block */
+}
+</style>
